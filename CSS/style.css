@@ -54,17 +54,16 @@ span {
 
 /* #photos_captions */
 
-figcaption {
+#first_caption {
     font-size: 12px;
     font-weight: 600;
-}
-
-#first_caption {
     margin-top: 0;
     margin-bottom: 0;
 }
 
 #second_caption {
+    font-size: 12px;
+    font-weight: 600;
     margin-top: 0;
 }
 /* /#photos_captions */
@@ -78,7 +77,7 @@ ul {
 }
 
 /* table */
-#table_adapt {
+.table_adapt {
     width: 50%;
 }
 
@@ -88,14 +87,14 @@ ul {
     color: white;
 }
 
-#colored_raw {
+.colored_raw {
     background-color: rgb(132, 203, 226);
 }
 /* /table */
 
 /* /#article_body */
 
-/* footer: more-interests */
+/* footer: interests */
 
 #footer_title {
     color: gray;
@@ -130,4 +129,4 @@ ul {
    margin-top: 10px;
 }
 
-/* /footer: more-interests */
+/* /footer: interests */
