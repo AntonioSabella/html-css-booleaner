@@ -1,6 +1,7 @@
 body {
     margin: 0;
     box-sizing: border-box;
+    padding: 0;
 }
 
 /* header: booleaner-logo */
@@ -25,17 +26,28 @@ header {
     margin-left: 5px;
 }
 
+h1 {
+    font-size: 45px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
 #author {
-    color: lightgray;
+    color: rgba(148, 143, 143, 0.8);
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 span {
-    color: aqua;
+    color: rgb(46, 172, 245);
 }
 
 #date {
-    color: lightgray;
+    color: rgba(148, 143, 143, 0.8);
+    font-weight: 600;
     font-size: 10px;
+    margin-top: 0;
 }
 
 /* /#title_info */
@@ -43,11 +55,27 @@ span {
 /* #photos_captions */
 
 figcaption {
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#first_caption {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#second_caption {
+    margin-top: 0;
 }
 /* /#photos_captions */
 
 /* #article_body */
+
+ul {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 /* table */
 #table_adapt {
@@ -71,11 +99,13 @@ figcaption {
 
 #footer_title {
     color: gray;
+    margin-bottom: 5px;
 }
 
 #first_advice {
    background-image: url("./../img/monitor.jpg");
-   height: 250px;
+   background-size: cover;
+   height: 200px;
    width: 250px;
    background-repeat: no-repeat;
    color: white;
@@ -83,11 +113,13 @@ figcaption {
    font-weight: 800;
    padding-top: 2px;
    padding-left: 5px;
+   margin-bottom: 10px;
 }
 
 #second_advice {
-    background-image: url("./../img/graph.jpg");
-   height: 250px;
+   background-image: url("./../img/graph.jpg");
+   background-size: cover;
+   height: 200px;
    width: 250px;
    background-repeat: no-repeat;
    color: white;
@@ -95,6 +127,7 @@ figcaption {
    font-weight: 800;
    padding-top: 2px;
    padding-left: 5px;
+   margin-top: 10px;
 }
 
 /* /footer: more-interests */
