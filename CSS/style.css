@@ -48,6 +48,7 @@ figcaption {
 /* /#photos_captions */
 
 /* #article_body */
+
 /* table */
 #table_adapt {
     width: 50%;
@@ -63,6 +64,37 @@ figcaption {
     background-color: rgb(132, 203, 226);
 }
 /* /table */
+
 /* /#article_body */
 
 /* footer: more-interests */
+
+#footer_title {
+    color: gray;
+}
+
+#first_advice {
+   background-image: url("./../img/monitor.jpg");
+   height: 250px;
+   width: 250px;
+   background-repeat: no-repeat;
+   color: white;
+   font-size: 20px;
+   font-weight: 800;
+   padding-top: 2px;
+   padding-left: 5px;
+}
+
+#second_advice {
+    background-image: url("./../img/graph.jpg");
+   height: 250px;
+   width: 250px;
+   background-repeat: no-repeat;
+   color: white;
+   font-size: 20px;
+   font-weight: 800;
+   padding-top: 2px;
+   padding-left: 5px;
+}
+
+/* /footer: more-interests */
