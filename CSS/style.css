@@ -45,11 +45,24 @@ span {
 figcaption {
     font-size: 10px;
 }
-
 /* /#photos_captions */
 
+/* #article_body */
+/* table */
+#table_adapt {
+    width: 50%;
+}
 
+#left_adjust {
+    text-align: left;
+    background-color: rgb(11, 175, 230);
+    color: white;
+}
 
-
+#colored_raw {
+    background-color: rgb(132, 203, 226);
+}
+/* /table */
+/* /#article_body */
 
 /* footer: more-interests */
