@@ -19,6 +19,8 @@ header {
 
 /* main: article */
 
+/* #title_info */
+
 #title_info {
     margin-left: 5px;
 }
@@ -35,5 +37,19 @@ span {
     color: lightgray;
     font-size: 10px;
 }
+
+/* /#title_info */
+
+/* #photos_captions */
+
+figcaption {
+    font-size: 10px;
+}
+
+/* /#photos_captions */
+
+
+
+
 
 /* footer: more-interests */
